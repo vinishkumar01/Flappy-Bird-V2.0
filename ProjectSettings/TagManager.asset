@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pipe
+  - bird
+  - PipePassThrough
+  - flappy
+  - PipeAbove
+  - PipeBelow
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Pipes
+  - Birds
+  - PipePassThrough
+  - Ground
+  - Flappy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Clouds
+    uniqueID: 3338152791
+    locked: 0
+  - name: City
+    uniqueID: 505464427
+    locked: 0
+  - name: Greens
+    uniqueID: 3115454885
+    locked: 0
+  - name: Pipes
+    uniqueID: 2429768721
+    locked: 0
+  - name: Platform
+    uniqueID: 2563075961
+    locked: 0
+  - name: Bird
+    uniqueID: 2387782019
+    locked: 0
+  - name: Flappy
+    uniqueID: 1417207407
+    locked: 0
+  - name: BlackScreen
+    uniqueID: 997445737
+    locked: 0

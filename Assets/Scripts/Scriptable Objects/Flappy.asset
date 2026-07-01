@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dbcb5a17bffc04aa1562c3e4bf71ac, type: 3}
+  m_Name: Flappy
+  m_EditorClassIdentifier: 
+  flyAudioClip: {fileID: 8300000, guid: ba2fc418c41bb9547a22c2908432d3bf, type: 3}
+  deathAudioClip: {fileID: 8300000, guid: fe4250c182d35324b8570640076c423d, type: 3}
+  scoredAudioClip: {fileID: 8300000, guid: 6e07426d69e17e54c86f5b9436253f92, type: 3}
+  dashAudioClip: {fileID: 8300000, guid: d3ed5aa72514d4d4291574c8c100c3be, type: 3}
+  pipeAndBirdCollideAudioClip: {fileID: 8300000, guid: ea9584a0f254cce41bc5f32ad8ad53f6, type: 3}
+  rotateUpSpeed: 1
+  rotateDownSpeed: 1
+  velocityPerFlap: 8
+  horizontalVelocity: 3
+  birdRotation: {x: 0, y: 0, z: 0}
+  _doubleTapTimeLimit: 0.2
+  doubleTap: 0
+  dashTime: 1.5
+  dashVelocity: 25
+  dashCoolDown: 30
+  canDash: 0
+  hasTouchedThePipe: 0
+  pipe:
+    serializedVersion: 2
+    m_Bits: 64
+  bird:
+    serializedVersion: 2
+    m_Bits: 128
